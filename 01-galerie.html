@@ -92,6 +92,7 @@ rgba(0,0,0,0.9) right right sans-serif text-align top top width width
     <div class="overlay"
     x-show="imageChien"
     @click="imageChien = ''"
+    @keyup.escape.window = "imageChien = ''"
     >
         <figure><img :src="imageChien"></figure>
     </div>
