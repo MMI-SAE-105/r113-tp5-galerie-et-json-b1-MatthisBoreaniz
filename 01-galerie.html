@@ -37,6 +37,7 @@ rgba(0,0,0,0.9) right right sans-serif text-align top top width width
     display: grid;
     /* Center vertically and horizontally */
     place-content: center;
+    z-index: 1;
 }
 .overlay::after {
     /* Add content : "X" */
@@ -100,5 +101,6 @@ rgba(0,0,0,0.9) right right sans-serif text-align top top width width
     @click="imageChien = 'https://picsum.photos/id/237/400/300'">
     <img src="https://picsum.photos/id/237/40/60" alt="miniature chiot"
     @click="imageChien = 'https://picsum.photos/id/237/400/300'">
+</div>
 </body>
 </html>
